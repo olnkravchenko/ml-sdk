@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "ml-sdk"
+version = "0.1.0"
+description = ""
+authors = ["olnkravchenko <alenakravchenko1@gmail.com>"]
+readme = "README.md"
+packages = [
+    { include = "source", from = "src" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^2.1.1"
+matplotlib = "^3.9.2"
+pandas = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
