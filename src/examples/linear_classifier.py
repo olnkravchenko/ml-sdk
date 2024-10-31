@@ -5,10 +5,13 @@ from copy import deepcopy
 from typing import Optional
 
 import numpy as np
+
+# TODO: fix imports
 from loss_functions import LossFunc, softmax_loss_vectorized
 from preprocessing import augmentation
 
 
+# TODO: fix usage of softmax
 class LinearClassifier(object):
 
     def __init__(
